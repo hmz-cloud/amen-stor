@@ -7,6 +7,8 @@ sources = {
     "hero": root / "amen-editorial" / "hero.jpg",
     "look": root / "amen-editorial" / "look.jpg",
     "tee": root / "amen-editorial" / "tee-still.jpg",
+    "editorial02": root / "amen-editorial" / "editorial-02.jpg",
+    "editorial03": root / "amen-editorial" / "editorial-03.jpg",
     "detail": root / "loomere" / "detail.png",
     "product": root / "loomere" / "product.png",
 }
