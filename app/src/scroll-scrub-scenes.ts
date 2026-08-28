@@ -1,41 +1,31 @@
-/**
- * Scene data for the scroll-scrub journey — THE file you fill in per build.
- *
- * Single-shot (the default): ONE entry in `scenes`, whose `clip` is the single
- * continuous film. Chapter copy still comes from `chapters` below, rendered as
- * semantic sections over that one clip.
- *
- * Multi-leg (opt-in): one entry per seam-locked leg, in journey order. Every
- * `poster` MUST be the exact first frame of the encoded clip beside it — never
- * a design board or an imagined destination still.
- *
- * Keep this array a module constant. Changing its identity on every render
- * intentionally rebuilds the media controller.
- */
 import type {
   ScrollScrubScene,
   ScrollScrubTheme,
 } from "@/components/scroll-scrub/scroll-scrub";
 
-/** Brand tokens for the journey layer. Set these from the design brief. */
 export const scrollScrubTheme: ScrollScrubTheme = {
-  accent: "<accent hex>",
-  background: "<background hex>",
-  ink: "<ink hex>",
-  muted: "<muted ink hex>",
+  accent: "#3557d4",
+  background: "#11110f",
+  ink: "#e9e6df",
+  muted: "#b9b6ae",
 };
 
 export const scrollScrubScenes: ScrollScrubScene[] = [
   {
-    body: "<one sentence that earns the next scroll>",
+    body: "Garments with a measured silhouette, cut for movement and made to hold their shape.",
     clip: "/assets/world/scene-01.mp4",
-    id: "scene-01",
-    kicker: "<kicker>",
-    label: "<nav label>",
+    id: "arrival",
+    kicker: "AMEN. / PRIVATE SHOWROOM",
+    label: "Arrival",
     mobileClip: "/assets/world/scene-01-mobile.mp4",
     mobilePoster: "/assets/world/scene-01-mobile-poster.png",
     poster: "/assets/world/scene-01-poster.png",
-    tags: ["<proof tag>"],
-    title: "<scene headline>",
+    tags: ["Limited release", "Designed for repeat wear"],
+    title: "Wear the quiet statement.",
+    align: "left",
+    scroll: 2.2,
+    linger: 0.18,
+    objectPosition: "center center",
+    mobileObjectPosition: "55% center",
   },
 ];
