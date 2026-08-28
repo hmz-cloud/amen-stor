@@ -13,13 +13,13 @@ export const scrollScrubTheme: ScrollScrubTheme = {
 export const scrollScrubScenes: ScrollScrubScene[] = [
   {
     body: "Garments with a measured silhouette, cut for movement and made to hold their shape.",
-    clip: "/assets/world/scene-01.mp4",
+    clip: "./assets/world/scene-01.mp4",
     id: "arrival",
     kicker: "AMEN. / PRIVATE SHOWROOM",
     label: "Arrival",
-    mobileClip: "/assets/world/scene-01-mobile.mp4",
-    mobilePoster: "/assets/world/scene-01-mobile-poster.png",
-    poster: "/assets/world/scene-01-poster.png",
+    mobileClip: "./assets/world/scene-01-mobile.mp4",
+    mobilePoster: "./assets/world/scene-01-mobile-poster.png",
+    poster: "./assets/world/scene-01-poster.png",
     tags: ["Limited release", "Designed for repeat wear"],
     title: "Wear the quiet statement.",
     align: "left",

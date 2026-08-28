@@ -7,14 +7,14 @@ import { scrollScrubScenes, scrollScrubTheme } from "@/scroll-scrub-scenes";
 export const Route = createFileRoute("/")({ component: Index });
 
 const products = [
-  { name: "Nocturne shell jacket", type: "Jackets", price: "$248", inventory: 7, image: "/assets/loomere/hero.jpg", tone: "Deep graphite" },
-  { name: "Cobalt study tee", type: "Clothing", price: "$96", inventory: 18, image: "/assets/loomere/look.jpg", tone: "Electric cobalt" },
-  { name: "Signal pendant", type: "Jewelry", price: "$74", inventory: 4, image: "/assets/loomere/detail.png", tone: "Brushed silver" },
-  { name: "Heavyweight form hoodie", type: "Clothing", price: "$168", inventory: 11, image: "/assets/loomere/product.png", tone: "Field olive" },
-  { name: "Archive six-panel cap", type: "Headwear", price: "$68", inventory: 9, image: "/assets/loomere/detail.png", tone: "Washed black" },
-  { name: "After-dark rib socks", type: "Socks", price: "$28", inventory: 24, image: "/assets/loomere/product.png", tone: "Bone / black" },
-  { name: "Utility key carabiner", type: "Accessories", price: "$42", inventory: 3, image: "/assets/loomere/hero.jpg", tone: "Gunmetal" },
-  { name: "Frame long-sleeve", type: "Clothing", price: "$112", inventory: 0, image: "/assets/loomere/look.jpg", tone: "Chalk white" },
+  { name: "Nocturne shell jacket", type: "Jackets", price: "$248", inventory: 7, image: "./assets/loomere/hero.jpg", tone: "Deep graphite" },
+  { name: "Cobalt study tee", type: "Clothing", price: "$96", inventory: 18, image: "./assets/loomere/look.jpg", tone: "Electric cobalt" },
+  { name: "Signal pendant", type: "Jewelry", price: "$74", inventory: 4, image: "./assets/loomere/detail.png", tone: "Brushed silver" },
+  { name: "Heavyweight form hoodie", type: "Clothing", price: "$168", inventory: 11, image: "./assets/loomere/product.png", tone: "Field olive" },
+  { name: "Archive six-panel cap", type: "Headwear", price: "$68", inventory: 9, image: "./assets/loomere/detail.png", tone: "Washed black" },
+  { name: "After-dark rib socks", type: "Socks", price: "$28", inventory: 24, image: "./assets/loomere/product.png", tone: "Bone / black" },
+  { name: "Utility key carabiner", type: "Accessories", price: "$42", inventory: 3, image: "./assets/loomere/hero.jpg", tone: "Gunmetal" },
+  { name: "Frame long-sleeve", type: "Clothing", price: "$112", inventory: 0, image: "./assets/loomere/look.jpg", tone: "Chalk white" },
 ];
 
 const categories = ["All pieces", "Clothing", "Jackets", "Headwear", "Accessories", "Socks", "Jewelry"];
@@ -56,7 +56,7 @@ function Index() {
           <a className="hero-cta" href="#collection">Shop the collection <span>↗</span></a>
         </div>
         <a className="hero-product" href="#collection" aria-label="Shop the Nocturne shell jacket">
-          <img src="/assets/loomere/hero.jpg" alt="Nocturne shell jacket in deep graphite" />
+          <img src="./assets/loomere/hero.jpg" alt="Nocturne shell jacket in deep graphite" />
           <span className="hero-product-label"><span>Featured / Nocturne shell</span><strong>$248</strong></span>
         </a>
         <div className="hero-foot"><span>Designed in the in-between</span><span>Scroll to enter ↓</span></div>
@@ -84,7 +84,7 @@ function Index() {
       </section>
 
       <section id="principle" className="principle-section">
-        <div className="principle-image"><img src="/assets/loomere/look.jpg" alt="Model wearing a cobalt LOOMERE garment in a late-night arcade" loading="lazy" /></div>
+        <div className="principle-image"><img src="./assets/loomere/look.jpg" alt="Model wearing a cobalt LOOMERE garment in a late-night arcade" loading="lazy" /></div>
         <div className="principle-copy"><p className="utility-label">The LOOMERE principle</p><h2>Comfort is not the opposite of edge.</h2><p>We make clothes for the hours between plans. Soft where they need to be, structured where they count, and never louder than the person wearing them.</p><a className="text-link" href="#collection">Read our story <span>↗</span></a></div>
       </section>
 

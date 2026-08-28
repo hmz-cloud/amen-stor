@@ -22,6 +22,7 @@ export default defineConfig(({ command, mode }) => {
   const designInspectorEnabled = process.env.HF_DESIGN_INSPECTOR === "1" || mode === "design";
 
   return {
+    base: command === "build" ? "./" : "/",
     // fsevents can miss edits under some setups (bun-launched dev, synced/virtual
     // dirs), leaving HMR dead so changes only appear after a manual restart.
     // Polling the watcher makes file changes reliably trigger HMR / SSR reload.
