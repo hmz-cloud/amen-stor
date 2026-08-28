@@ -1,10 +1,16 @@
 from pathlib import Path
 import base64
 
-root = Path(__file__).parent / "app" / "public" / "assets" / "loomere"
+root = Path(__file__).parent / "app" / "public" / "assets"
 template = (Path(__file__).parent / "amen-stor-standalone.template.html").read_text()
-for name, ext in {"hero":"jpg", "look":"jpg", "detail":"png", "product":"png"}.items():
-    path = root / f"{name}.{ext}"
+sources = {
+    "hero": root / "amen-editorial" / "hero.jpg",
+    "look": root / "amen-editorial" / "look.jpg",
+    "detail": root / "loomere" / "detail.png",
+    "product": root / "loomere" / "product.png",
+}
+for name, path in sources.items():
+    ext = path.suffix.lstrip(".")
     encoded = base64.b64encode(path.read_bytes()).decode("ascii")
     template = template.replace(f'data-asset="{name}"', f'src="data:image/{"jpeg" if ext == "jpg" else ext};base64,{encoded}"')
     template = template.replace(f'data-product="{name}"', f'src="data:image/{"jpeg" if ext == "jpg" else ext};base64,{encoded}"')
