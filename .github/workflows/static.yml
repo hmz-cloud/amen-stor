@@ -23,46 +23,17 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v2
-        with:
-          bun-version: latest
-      - name: Build client
-        working-directory: app
-        run: |
-          bun install --frozen-lockfile
-          bun run build:dev
-      - name: Create Pages entry point
+      - name: Prepare static site
         shell: bash
         run: |
-          js=$(basename app/dist/client/assets/index-*.js)
-          css=$(basename app/dist/client/assets/styles-*.css)
-          appcss=$(basename app/dist/client/assets/app-*.css)
-          routescss=$(basename app/dist/client/assets/routes-*.css)
-          cat > app/dist/client/index.html <<EOF
-          <!doctype html>
-          <html lang="en">
-            <head>
-              <meta charset="UTF-8" />
-              <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-              <meta name="theme-color" content="#11110f" />
-              <title>AMEN. | Private showroom</title>
-              <link rel="stylesheet" href="./assets/$appcss" />
-              <link rel="stylesheet" href="./assets/$routescss" />
-              <link rel="stylesheet" href="./assets/$css" />
-            </head>
-            <body>
-              <div id="root"></div>
-              <script type="module" src="./assets/$js"></script>
-            </body>
-          </html>
-          EOF
+          mkdir -p _site
+          cp app/public/index.html _site/index.html
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: app/dist/client
+          path: _site
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
