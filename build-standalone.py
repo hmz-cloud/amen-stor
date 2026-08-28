@@ -6,6 +6,7 @@ template = (Path(__file__).parent / "amen-stor-standalone.template.html").read_t
 sources = {
     "hero": root / "amen-editorial" / "hero.jpg",
     "look": root / "amen-editorial" / "look.jpg",
+    "tee": root / "amen-editorial" / "tee-still.jpg",
     "detail": root / "loomere" / "detail.png",
     "product": root / "loomere" / "product.png",
 }
