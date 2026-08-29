@@ -1,4 +1,4 @@
-const CACHE_NAME = 'amen-shell-v1';
+const CACHE_NAME = 'amen-shell-v2';
 const CORE = ['./', './index.html', './manifest.json', './amen-logo.svg', './brand/favicon.svg', './brand/icon-192.png', './brand/icon-512.png'];
 
 self.addEventListener('install', event => {
