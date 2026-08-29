@@ -3,6 +3,8 @@ import base64
 
 root = Path(__file__).parent / "app" / "public" / "assets"
 template = (Path(__file__).parent / "amen-stor-standalone.template.html").read_text()
+logo = base64.b64encode((Path(__file__).parent / "app" / "public" / "amen-logo.svg").read_bytes()).decode("ascii")
+template = template.replace('./amen-logo.svg', f'data:image/svg+xml;base64,{logo}')
 sources = {
     "hero": root / "amen-editorial" / "hero.jpg",
     "look": root / "amen-editorial" / "look.jpg",
