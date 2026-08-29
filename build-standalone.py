@@ -13,14 +13,14 @@ sources = {
     "editorial03": root / "amen-editorial" / "editorial-03.jpg",
     "detail": root / "loomere" / "detail.png",
     "product": root / "loomere" / "product.png",
-    "prodCap": root / "products" / "amen-corduroy-cap.jpg",
-    "prodStrapback": root / "products" / "amen-strapback-hat.jpg",
-    "prodBarcodeBlack": root / "products" / "amen-barcode-black-tee.jpg",
-    "prodBarcodeCream": root / "products" / "amen-barcode-cream-tee.jpg",
-    "prodSunriseBlack": root / "products" / "amen-sunrise-black-tee.jpg",
-    "prodSunriseBlue": root / "products" / "amen-sunrise-blue-tee.jpg",
-    "prodBucket": root / "products" / "amen-reversible-bucket-hat.jpg",
-    "prodLongSleeve": root / "products" / "amen-logo-cropped-long-sleeve.jpg",
+    "prodCap": root / "products" / "amen-corduroy-cap-cutout.png",
+    "prodStrapback": root / "products" / "amen-strapback-hat-cutout.png",
+    "prodBarcodeBlack": root / "products" / "amen-barcode-black-tee-cutout.png",
+    "prodBarcodeCream": root / "products" / "amen-barcode-cream-tee-cutout.png",
+    "prodSunriseBlack": root / "products" / "amen-sunrise-black-tee-cutout.png",
+    "prodSunriseBlue": root / "products" / "amen-sunrise-blue-tee-cutout.png",
+    "prodBucket": root / "products" / "amen-reversible-bucket-hat-cutout.png",
+    "prodLongSleeve": root / "products" / "amen-logo-cropped-long-sleeve-cutout.png",
 }
 for name, path in sources.items():
     ext = path.suffix.lstrip(".")

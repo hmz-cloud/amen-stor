@@ -3,56 +3,56 @@
     "slug": "amen-corduroy-cap",
     "url": "https://amenofficial.co/products/logo-baseball-cap",
     "image_url": "https://media.zid.store/cdn-cgi/image/w=1200,h=630,q=90,fit=pad,background=white/https://media.zid.store/thumbs/a5d54da7-37a9-452e-baf9-f568e5bfd2bb/3faf75e0-6b53-4530-9129-068a3d14823e-thumbnail-1000x1000-70.jpg",
-    "local": "app/public/assets/products/amen-corduroy-cap.jpg",
+    "local": "app/public/assets/products/amen-corduroy-cap-cutout.png",
     "bytes": 38004
   },
   {
     "slug": "amen-strapback-hat",
     "url": "https://amenofficial.co/products/strapback-black",
     "image_url": "https://media.zid.store/cdn-cgi/image/w=1200,h=630,q=90,fit=pad,background=white/https://media.zid.store/thumbs/a5d54da7-37a9-452e-baf9-f568e5bfd2bb/157b0f83-ce5b-4537-a777-9fd976f8c34d-thumbnail-1000x1000-70.jpg",
-    "local": "app/public/assets/products/amen-strapback-hat.jpg",
+    "local": "app/public/assets/products/amen-strapback-hat-cutout.png",
     "bytes": 34745
   },
   {
     "slug": "amen-barcode-black-tee",
     "url": "https://amenofficial.co/products/amen-remastered-black-barcode-t-shirt",
     "image_url": "https://media.zid.store/cdn-cgi/image/w=1200,h=630,q=90,fit=pad,background=white/https://media.zid.store/thumbs/a5d54da7-37a9-452e-baf9-f568e5bfd2bb/40d8869d-a1be-408b-b284-7498e630a1e5-thumbnail-1000x1000-70.jpg",
-    "local": "app/public/assets/products/amen-barcode-black-tee.jpg",
+    "local": "app/public/assets/products/amen-barcode-black-tee-cutout.png",
     "bytes": 14719
   },
   {
     "slug": "amen-barcode-cream-tee",
     "url": "https://amenofficial.co/products/amen-remastered-cream-barcode-t-shirt",
     "image_url": "https://media.zid.store/cdn-cgi/image/w=1200,h=630,q=90,fit=pad,background=white/https://media.zid.store/thumbs/a5d54da7-37a9-452e-baf9-f568e5bfd2bb/5e97f273-7296-4c34-9431-9ca128b22493-thumbnail-1000x1000-70.jpg",
-    "local": "app/public/assets/products/amen-barcode-cream-tee.jpg",
+    "local": "app/public/assets/products/amen-barcode-cream-tee-cutout.png",
     "bytes": 12941
   },
   {
     "slug": "amen-sunrise-black-tee",
     "url": "https://amenofficial.co/products/amen-sunrise-black-t-shirt",
     "image_url": "https://media.zid.store/cdn-cgi/image/w=1200,h=630,q=90,fit=pad,background=white/https://media.zid.store/thumbs/a5d54da7-37a9-452e-baf9-f568e5bfd2bb/0e47b018-3f31-4058-bf19-6ebfa94391cd-thumbnail-1000x1000-70.jpg",
-    "local": "app/public/assets/products/amen-sunrise-black-tee.jpg",
+    "local": "app/public/assets/products/amen-sunrise-black-tee-cutout.png",
     "bytes": 16131
   },
   {
     "slug": "amen-sunrise-blue-tee",
     "url": "https://amenofficial.co/products/amen-sunrise-blue-t-shirt",
     "image_url": "https://media.zid.store/cdn-cgi/image/w=1200,h=630,q=90,fit=pad,background=white/https://media.zid.store/thumbs/a5d54da7-37a9-452e-baf9-f568e5bfd2bb/6b906d36-2e4e-4beb-b15d-1dfee1c097f9-thumbnail-1000x1000-70.jpg",
-    "local": "app/public/assets/products/amen-sunrise-blue-tee.jpg",
+    "local": "app/public/assets/products/amen-sunrise-blue-tee-cutout.png",
     "bytes": 22224
   },
   {
     "slug": "amen-reversible-bucket-hat",
     "url": "https://amenofficial.co/products/amen-reversible-bucket-hat",
     "image_url": "https://media.zid.store/cdn-cgi/image/w=1200,h=630,q=90,fit=pad,background=white/https://media.zid.store/thumbs/a5d54da7-37a9-452e-baf9-f568e5bfd2bb/dac0f347-3b6a-4053-aaaf-72b1062cab5a-thumbnail-1000x1000-70.jpg",
-    "local": "app/public/assets/products/amen-reversible-bucket-hat.jpg",
+    "local": "app/public/assets/products/amen-reversible-bucket-hat-cutout.png",
     "bytes": 39201
   },
   {
     "slug": "amen-logo-cropped-long-sleeve",
     "url": "https://amenofficial.co/products/amen-logo-long-sleeve-cropped-shirt",
     "image_url": "https://media.zid.store/cdn-cgi/image/w=1200,h=630,q=90,fit=pad,background=white/https://media.zid.store/thumbs/a5d54da7-37a9-452e-baf9-f568e5bfd2bb/84ea4a98-8a8b-465b-9c1a-a88385ab426c-thumbnail-1000x1000-70.jpg",
-    "local": "app/public/assets/products/amen-logo-cropped-long-sleeve.jpg",
+    "local": "app/public/assets/products/amen-logo-cropped-long-sleeve-cutout.png",
     "bytes": 15601
   }
 ]
